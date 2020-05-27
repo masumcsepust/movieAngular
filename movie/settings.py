@@ -23,7 +23,7 @@ STATIS_ROOT = os.path.join(BASE_DIR, 'statisfiles')
 
 
 ALLOWED_HOSTS = [
-    'mrmasum.herokuapp.com'
+    'bdmovie.herokuapp.com'
 ]
 SECRET_KEY=config('SECRET_KEY')
 DEBUG=config('DEBUG',default=False,cast=bool)
